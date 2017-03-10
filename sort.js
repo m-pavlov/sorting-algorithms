@@ -2,6 +2,7 @@ const types = {
     standart : require('./algorithms/standart'),
     bubble   : require('./algorithms/bubble'),
     selection: require('./algorithms/selection'),
+    coctail  : require('./algorithms/coctail'),
 }
 
 function sort(type, data){
