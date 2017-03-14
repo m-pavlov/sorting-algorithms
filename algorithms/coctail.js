@@ -1,5 +1,5 @@
 function sort(data){
-    var left = 0,
+    var left  = 0,
         right = data.length - 1,
         i, tmp;
 
