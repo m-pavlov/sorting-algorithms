@@ -4,6 +4,7 @@ const types = {
     selection: require('./algorithms/selection'),
     coctail  : require('./algorithms/coctail'),
     insertion: require('./algorithms/insertion'),
+    gnome:     require('./algorithms/gnome'),
 }
 
 function sort(type, data){
