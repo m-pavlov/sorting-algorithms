@@ -5,6 +5,7 @@ const types = {
     coctail  : require('./algorithms/coctail'),
     insertion: require('./algorithms/insertion'),
     gnome:     require('./algorithms/gnome'),
+    quick:     require('./algorithms/quick'),
 }
 
 function sort(type, data){
@@ -56,4 +57,6 @@ function getDelta(t0, t1){
     }
 }
 
-module.exports = sort;
+module.exports = {
+    sort, types
+};
